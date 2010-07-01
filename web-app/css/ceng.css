@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+#ceng{
+	position:absolute;
+	width:380px;
+	height:auto;
+	border:1px solid #01888c;
+	left:50px;
+	display:none;
+	top:50px;
+	z-index:888;
+	/*background:#FFF;*/
+	background:#C9D9E1;
+	border:3px solid #C9D9E1;
+	float:left;
+	margin-top:50px;
+	_margin-top:40px;
+}
+#img{
+	position:absolute;
+	left:310px;
+	top:70px;
+	z-index:888;
+	display:none;
+}
+	
+/*#city{
+	height:23px;
+	width:50px;
+	display:block;
+	float:left;
+	<!--background:#d1d1d1;-->
+	font-size:15px;
+	font-weight:bold;
+	padding-top:7px;
+	padding-left:15px;
+}*/
+#ceng1{
+	width:380px;
+	height:auto;
+	float:left;
+	background:#EFF4F7;
+	/*padding-bottom:10px !important;
+	_padding-bottom:0px;*/
+}
+#ul{
+	width:380px;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	margin-left:10px;
+	padding-top:5px;
+	
+}
+#ul li{
+	float:left;
+	line-height:20px;
+	height:30px;
+	width:55px;
+	margin-top:5px;
+	margin-left:10px;
+	list-style:none;
+/*	border:1px solid #F00;*/
+	padding-left:5px;
+	padding-top:5px;
+}
+#ul li a{
+	text-decoration:none;
+	color:#03888d;
+	font-size:15px;
+	cursor:pointer;
+	display:table;
+	line-height:25px;
+	width:38px;
+	padding-left:8px;
+}
+
+
+#ceng3{
+	position:absolute;
+	width:380px;
+	height:auto;
+	border:1px solid #01888c;
+	left:50px;
+	display:none;
+	top:50px;
+	z-index:888;
+	/*background:#FFF;*/
+	background:#C9D9E1;
+	border:3px solid #C9D9E1;
+	float:left;
+	margin-top:50px;
+	_margin-top:40px;
+}
+#img{
+	position:absolute;
+	left:310px;
+	top:70px;
+	z-index:888;
+	display:none;
+}
+	
+/*#city{
+	height:23px;
+	width:50px;
+	display:block;
+	float:left;
+	<!--background:#d1d1d1;-->
+	font-size:15px;
+	font-weight:bold;
+	padding-top:7px;
+	padding-left:15px;
+}*/
+#ceng4{
+	width:380px;
+	height:auto;
+	float:left;
+	background:#EFF4F7;
+	/*padding-bottom:10px !important;
+	_padding-bottom:0px;*/
+}
+#ul2{
+	width:380px;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	margin-left:10px;
+	padding-top:5px;
+	
+}
+#ul2 li{
+	float:left;
+	line-height:20px;
+	height:30px;
+	width:55px;
+	margin-top:5px;
+	margin-left:10px;
+	list-style:none;
+/*	border:1px solid #F00;*/
+	padding-left:5px;
+	padding-top:5px;
+}
+#ul2 li a{
+	text-decoration:none;
+	color:#03888d;
+	font-size:15px;
+	cursor:pointer;
+	display:table;
+	line-height:25px;
+	width:38px;
+	padding-left:8px;
+}
