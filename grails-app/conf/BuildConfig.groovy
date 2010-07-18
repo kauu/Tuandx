@@ -18,6 +18,7 @@ grails.project.dependency.resolution = {
         // from public Maven repositories
         //mavenLocal()
         mavenCentral()
+		mavenRepo "http://mirrors.ibiblio.org/pub/mirrors/maven2/"
         mavenRepo "http://snapshots.repository.codehaus.org"
         mavenRepo "http://repository.codehaus.org"
         mavenRepo "http://download.java.net/maven/2/"
@@ -25,7 +26,17 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-
-         runtime 'mysql:mysql-connector-java:5.1.5'
+		compile(
+			[group:'org.codehaus.groovy.modules.http-builder', name:'http-builder', version:'0.5.0']
+		){
+		excludes "xercesImpl"
+		}
+		
+		runtime(
+			[group:'org.codehaus.groovy.modules.http-builder', name:'http-builder', version:'0.5.0'],
+		){
+		excludes "xercesImpl"
+		}
+        // runtime 'mysql:mysql-connector-java:5.1.5'
     }
 }
